@@ -17,7 +17,6 @@ export default function TodoList() {
             text: refTodo.current.value,
             isDone: false
         }]);
-
     }
 
     useEffect(() => {
@@ -27,8 +26,6 @@ export default function TodoList() {
         }
 
     }, [todo])
-
-
 
     return (
         <>
